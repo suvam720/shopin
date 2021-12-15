@@ -1,0 +1,51 @@
+
+  
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  .branding{
+    margin-right: 50%;
+    position: inherit;
+    font-style: italic;
+    text-decoration: underline;
+
+    &:hover{
+      color: rgb(255, 127, 80);
+    
+    }
+  }
+  .search-bar{
+    width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      
+  }
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+     
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        font-weight: bolder;
+        cursor: pointer;
+       
+        &:hover{
+          color: coral;
+        }
+      }
+    }
+  }
