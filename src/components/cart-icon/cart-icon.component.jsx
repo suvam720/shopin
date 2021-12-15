@@ -5,7 +5,7 @@ import {connect } from 'react-redux';
 import { toggleCartHidden} from '../../redux/cart/cart.actions';
 import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 
-import { ReactComponent as ShoppingIcon} from '/home/suvam/Desktop/App/papoi/src/assets/shopping-bag.svg'
+import { ReactComponent as ShoppingIcon} from '../../assets/shopping-bag.svg';
 
 import './cart-icon.styles.scss';
 
