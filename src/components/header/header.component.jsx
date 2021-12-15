@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import CartIcon from '../cart-icon/cart-icon.component';
-import {ReactComponent as Logo} from '/home/suvam/Desktop/App/papoi/src/assets/sart.svg';
+import {ReactComponent as Logo} from '../../assets/sart.svg';
 import CartDropdown from '../cart-dropdown/cart-deopdown.component';
 import {selectCartHidden} from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
